@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "pn-p-react-controls-demo",
+    "libraryId": "ba5ef0ca-8b26-45ad-92dc-a355ced6edd5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "PnPReactControlsDemo",
+    "solutionShortDescription": "PnPReactControlsDemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

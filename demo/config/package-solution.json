@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pn-p-react-controls-demo-client-side-solution",
+    "id": "ba5ef0ca-8b26-45ad-92dc-a355ced6edd5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "PnPReactControlsDemo description"
+      },
+      "longDescription": {
+        "default": "PnPReactControlsDemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pn-p-react-controls-demo Feature",
+        "description": "The feature that activates elements of the pn-p-react-controls-demo solution.",
+        "id": "e68bc482-e6c1-40eb-a2bd-84c18046566d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pn-p-react-controls-demo.sppkg"
+  }
+}
