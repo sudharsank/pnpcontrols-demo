@@ -9,6 +9,5 @@ This repo contains different samples of PnP React Controls. Following are the to
 - **_@pnp/spfx-controls-react_** - v3.8.0
 
 ## Samples List
--  [**_Placeholder_**](https://spknowledge.com/2022/05/16/pnp-react-controls-part-1-placeholder-control/)
-- **_WebPartTitle_**
-- **_Variant Theme Provider_**
+- [**_Placeholder_**](https://spknowledge.com/2022/05/16/pnp-react-controls-part-1-placeholder-control/)
+- [**_Variant Theme Provider_**](https://spknowledge.com/2022/05/20/pnp-react-controls-part-2-variant-theme-provider/)
