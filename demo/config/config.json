@@ -17,12 +17,21 @@
           "manifest": "./src/webparts/variantTheme/VariantThemeWebPart.manifest.json"
         }
       ]
+    },
+    "list-view-control-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listViewControl/ListViewControlWebPart.js",
+          "manifest": "./src/webparts/listViewControl/ListViewControlWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "PlaceholderDemoWebPartStrings": "lib/webparts/placeholderDemo/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js"
+    "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js",
+    "ListViewControlWebPartStrings": "lib/webparts/listViewControl/loc/{locale}.js"
   }
 }
