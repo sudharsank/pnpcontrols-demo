@@ -10,5 +10,9 @@ A demo project on different PnP SPFx react controls.
 
 ## **_1. Placeholder Control_**
 ![Placeholder Demo](../assets/Placeholder.jpg)
+
+## **_2. Variant Theme Provider Control_**
 ![Variant Theme Provider Demo](../assets/VariantThemeProvider.png)
+
+## **_3. Accessible Accordion Control_**
 ![Accessible Accordion Demo](../assets/AccessibleAccordion.png)
