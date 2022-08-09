@@ -17,12 +17,21 @@
           "manifest": "./src/webparts/variantTheme/VariantThemeWebPart.manifest.json"
         }
       ]
+    },
+    "accessible-accordion-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/accessibleAccordionDemo/AccessibleAccordionDemoWebPart.js",
+          "manifest": "./src/webparts/accessibleAccordionDemo/AccessibleAccordionDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
     "PlaceholderDemoWebPartStrings": "lib/webparts/placeholderDemo/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
-    "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js"
+    "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js",
+    "AccessibleAccordionDemoWebPartStrings": "lib/webparts/accessibleAccordionDemo/loc/{locale}.js"
   }
 }
