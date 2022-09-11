@@ -25,6 +25,14 @@
           "manifest": "./src/webparts/accessibleAccordionDemo/AccessibleAccordionDemoWebPart.manifest.json"
         }
       ]
+    },
+    "list-view-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listViewDemo/ListViewDemoWebPart.js",
+          "manifest": "./src/webparts/listViewDemo/ListViewDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -32,6 +40,7 @@
     "PlaceholderDemoWebPartStrings": "lib/webparts/placeholderDemo/loc/{locale}.js",
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
     "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js",
-    "AccessibleAccordionDemoWebPartStrings": "lib/webparts/accessibleAccordionDemo/loc/{locale}.js"
+    "AccessibleAccordionDemoWebPartStrings": "lib/webparts/accessibleAccordionDemo/loc/{locale}.js",
+    "ListViewDemoWebPartStrings": "lib/webparts/listViewDemo/loc/{locale}.js"
   }
 }
