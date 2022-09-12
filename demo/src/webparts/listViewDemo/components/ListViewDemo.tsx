@@ -8,8 +8,6 @@ import { useBoolean } from '@uifabric/react-hooks';
 import "@pnp/sp/webs";
 import "@pnp/sp/lists";
 import "@pnp/sp/items";
-import { IColumn } from 'office-ui-fabric-react/lib/DetailsList';
-import * as moment from 'moment';
 
 const ListViewDemo: React.FC<IListViewDemoProps> = (props) => {
     const {
@@ -47,17 +45,6 @@ const ListViewDemo: React.FC<IListViewDemoProps> = (props) => {
             minWidth: 200,
             maxWidth: 250,
             sorting: true
-        },
-        {
-            name: 'Created',
-            displayName: 'Created On',
-            render: (item?: any, index?: number, column?: IColumn) => {
-                if (item) {
-                    return (
-                        <div>{moment(item['Created']).format("DD/MM/YYYY")}</div>
-                    );
-                }
-            }
         }
     ];
     const groupFields: IGrouping[] = [
@@ -69,7 +56,7 @@ const ListViewDemo: React.FC<IListViewDemoProps> = (props) => {
 
     const _getListItems = async (): Promise<void> => {
         const items: any[] = await props.sp.web.lists.getByTitle('Case Master').items
-            .select('CaseID', 'CaseStatus', 'BizSegment', 'Author/Title', 'Created')
+            .select('CaseID', 'CaseStatus', 'BizSegment', 'Author/Title')
             .expand('Author')
             ();
         console.log("List Items: ", items);
@@ -96,13 +83,11 @@ const ListViewDemo: React.FC<IListViewDemoProps> = (props) => {
                     <ListView
                         items={listItems}
                         viewFields={viewFields}
-                        //iconFieldName="ServerRelativeUrl"
                         compact={true}
                         selectionMode={SelectionMode.multiple}
                         selection={_getSelectedItem}
                         showFilter={true}
                         filterPlaceHolder="Search..."
-                        //dragDropFiles={true}
                         stickyHeader={true}
                         groupByFields={groupFields}
                     />
