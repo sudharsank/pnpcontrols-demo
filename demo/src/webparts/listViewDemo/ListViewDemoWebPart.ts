@@ -11,6 +11,7 @@ import { SPFI, spfi, SPFx } from "@pnp/sp";
 import * as strings from 'ListViewDemoWebPartStrings';
 import ListViewDemo from './components/ListViewDemo';
 import { IListViewDemoProps } from './components/IListViewDemoProps';
+import ExtendListViewDemo from './components/ExtendListViewDemo';
 
 export interface IListViewDemoWebPartProps {
     description: string;
@@ -30,7 +31,16 @@ export default class ListViewDemoWebPart extends BaseClientSideWebPart<IListView
 
     public render(): void {
         const element: React.ReactElement<IListViewDemoProps> = React.createElement(
-            ListViewDemo,
+            // ListViewDemo,
+            // {
+            //     description: this.properties.description,
+            //     isDarkTheme: this._isDarkTheme,
+            //     environmentMessage: this._environmentMessage,
+            //     hasTeamsContext: !!this.context.sdks.microsoftTeams,
+            //     userDisplayName: this.context.pageContext.user.displayName,
+            //     sp: this.sp
+            // }
+            ExtendListViewDemo,
             {
                 description: this.properties.description,
                 isDarkTheme: this._isDarkTheme,

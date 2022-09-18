@@ -32,3 +32,14 @@
     }
   }
 }
+
+.divContextMenu {
+    button {
+        text-align: center;
+        vertical-align: middle;
+        margin-top: -5px;
+        span {
+            padding-left: 7px;
+        }
+    }
+}
