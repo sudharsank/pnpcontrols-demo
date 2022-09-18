@@ -19,3 +19,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_4. ListView Control_**
 ![List View Demo](../assets/ListView.png)
+
+## **_4. Extended ListView Control_**
+![Extended List View Demo](../assets/ExtendedListView.png)

@@ -14,3 +14,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_Variant Theme Provider_**](https://spknowledge.com/2022/05/20/pnp-react-controls-part-2-variant-theme-provider/)
 - [**_Accessible Accordion_**](https://spknowledge.com/2022/08/09/pnp-react-controls-part-3-accessible-accordion-control/)
 - [**_ListView_**](https://spknowledge.com/2022/09/12/pnp-react-controls-part-4-listview-control/)
+- [**_Extended ListView Control_**](https://spknowledge.com/2022/09/18/pnp-react-controls-part-4-1-extending-listview-control/)
