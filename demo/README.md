@@ -22,3 +22,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_4.1 Extended ListView Control_**
 ![Extended List View Demo](../assets/ExtendedListView.png)
+
+## **_4.2 Extended ListView Control Custom Paging_**
+![Extended List View Custom Paging Demo](../assets/ExtendedListView_CustomPaging.png)

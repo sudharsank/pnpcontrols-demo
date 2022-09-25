@@ -18,10 +18,12 @@
     "@microsoft/sp-webpart-base": "1.14.0",
     "@pnp/sp": "^3.5.1",
     "@pnp/spfx-controls-react": "3.8.0",
+    "lodash": "^4.17.21",
     "moment": "^2.29.4",
     "office-ui-fabric-react": "7.174.1",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-js-pagination": "^3.0.3"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.2": "^0.1.2",

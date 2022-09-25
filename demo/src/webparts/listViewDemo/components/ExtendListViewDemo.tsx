@@ -12,6 +12,9 @@ import { Persona, PersonaSize } from 'office-ui-fabric-react/lib/Persona';
 import { IColumn } from 'office-ui-fabric-react/lib/DetailsList';
 import * as moment from 'moment';
 import ListViewContextMenu from './ListViewContextMenu';
+import Paging from '../../../common/Paging';
+
+const slice: any = require('lodash/slice');
 
 const ExtendListViewDemo: React.FC<IListViewDemoProps> = (props) => {
     const {
@@ -23,6 +26,11 @@ const ExtendListViewDemo: React.FC<IListViewDemoProps> = (props) => {
     } = props;
     const [loading, { setTrue: displayLoading, setFalse: hideLoading }] = useBoolean(true);
     const [listItems, setListItems] = useState<any[]>(undefined);
+
+    const [pagedItems, setPagedItems] = useState<any[]>([]);
+    const [pageSize, setPageSize] = useState<number>(10);
+    const [currentPage, setCurrentPage] = useState<number>(1);
+
     const viewFields: IViewField[] = [
         {
             name: 'CaseID',
@@ -98,7 +106,20 @@ const ExtendListViewDemo: React.FC<IListViewDemoProps> = (props) => {
 
     const _getSelectedItem = (items: any[]) => {
         console.log('Selected Item(s): ', items);
-    }
+    };
+
+    const _onPageUpdate = async (pageno?: number) => {
+        var currentPge = (pageno) ? pageno : currentPage;
+        var startItem = ((currentPge - 1) * pageSize);
+        var endItem = currentPge * pageSize;
+        let filItems = slice(listItems, startItem, endItem);
+        setCurrentPage(currentPge);
+        setPagedItems(filItems);
+    };
+
+    useEffect(() => {
+        if (listItems) _onPageUpdate();
+    }, [listItems]);
 
     useEffect(() => { _getListItems() }, []);
 
@@ -112,17 +133,26 @@ const ExtendListViewDemo: React.FC<IListViewDemoProps> = (props) => {
                 {loading ? (
                     <div>Loading, Please wait...</div>
                 ) : (
-                    <ListView
-                        items={listItems}
-                        viewFields={viewFields}
-                        compact={true}
-                        selectionMode={SelectionMode.multiple}
-                        selection={_getSelectedItem}
-                        showFilter={true}
-                        filterPlaceHolder="Search..."
-                        stickyHeader={true}
-                        groupByFields={groupFields}
-                    />
+                    <>
+                        <ListView
+                            items={pagedItems}
+                            viewFields={viewFields}
+                            compact={true}
+                            selectionMode={SelectionMode.multiple}
+                            selection={_getSelectedItem}
+                            showFilter={true}
+                            filterPlaceHolder="Search..."
+                            stickyHeader={true}
+                            groupByFields={groupFields}
+                        />
+                        <div style={{ width: '100%', display: 'inline-block' }}>
+                            <Paging
+                                totalItems={listItems.length}
+                                itemsCountPerPage={pageSize}
+                                onPageUpdate={_onPageUpdate}
+                                currentPage={currentPage} />
+                        </div>
+                    </>
                 )}
             </div>
         </section>
