@@ -12,6 +12,7 @@ import * as strings from 'ListViewDemoWebPartStrings';
 import ListViewDemo from './components/ListViewDemo';
 import { IListViewDemoProps } from './components/IListViewDemoProps';
 import ExtendListViewDemo from './components/ExtendListViewDemo';
+import ExtendListViewPnPPaging from './components/ExtendListViewPnPPaging';
 
 export interface IListViewDemoWebPartProps {
     description: string;
@@ -40,7 +41,16 @@ export default class ListViewDemoWebPart extends BaseClientSideWebPart<IListView
             //     userDisplayName: this.context.pageContext.user.displayName,
             //     sp: this.sp
             // }
-            ExtendListViewDemo,
+            // ExtendListViewDemo,
+            // {
+            //     description: this.properties.description,
+            //     isDarkTheme: this._isDarkTheme,
+            //     environmentMessage: this._environmentMessage,
+            //     hasTeamsContext: !!this.context.sdks.microsoftTeams,
+            //     userDisplayName: this.context.pageContext.user.displayName,
+            //     sp: this.sp
+            // }
+            ExtendListViewPnPPaging,
             {
                 description: this.properties.description,
                 isDarkTheme: this._isDarkTheme,
