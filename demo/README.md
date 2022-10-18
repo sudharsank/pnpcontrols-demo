@@ -30,4 +30,4 @@ A demo project on different PnP SPFx react controls.
 ![List View with PnP Pagination](../assets/ExtendedListView_PnPPaging.png)
 
 ## **_6 Animated Dialog_**
-![Animated Dialog](../assets/AnimatedDialog.png)
+![Animated Dialog](../assets/PnPDialogs.gif)
