@@ -1,0 +1,18 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.dialogContainer {
+    .dialogContent {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 1.125em;
+    }
+    .resultDialogFooter {
+      text-align: center;
+      margin-top: 1.25em;
+  
+      button {
+        min-width: 100px;
+        margin: 0px 10px;
+      }
+    }
+}

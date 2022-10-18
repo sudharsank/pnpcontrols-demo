@@ -33,6 +33,14 @@
           "manifest": "./src/webparts/listViewDemo/ListViewDemoWebPart.manifest.json"
         }
       ]
+    },
+    "dialogs-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dialogsDemo/DialogsDemoWebPart.js",
+          "manifest": "./src/webparts/dialogsDemo/DialogsDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -41,6 +49,7 @@
     "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
     "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js",
     "AccessibleAccordionDemoWebPartStrings": "lib/webparts/accessibleAccordionDemo/loc/{locale}.js",
-    "ListViewDemoWebPartStrings": "lib/webparts/listViewDemo/loc/{locale}.js"
+    "ListViewDemoWebPartStrings": "lib/webparts/listViewDemo/loc/{locale}.js",
+    "DialogsDemoWebPartStrings": "lib/webparts/dialogsDemo/loc/{locale}.js"
   }
 }
