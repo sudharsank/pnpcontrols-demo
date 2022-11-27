@@ -2,9 +2,9 @@ import * as React from 'react';
 import styles from './AnimDialog.module.scss';
 import { AnimatedDialog } from "@pnp/spfx-controls-react/lib/AnimatedDialog";
 import { useState } from 'react';
-import { DialogFooter, DialogType, IDialogContentProps } from 'office-ui-fabric-react/lib/Dialog';
-import { DefaultButton, PrimaryButton } from 'office-ui-fabric-react/lib/Button';
-import { IModalProps } from 'office-ui-fabric-react/lib/Modal';
+import { DialogFooter, DialogType, IDialogContentProps } from '@fluentui/react/lib/Dialog';
+import { DefaultButton, PrimaryButton } from '@fluentui/react/lib/Button';
+import { IModalProps } from '@fluentui/react/lib/Modal';
 
 
 export interface IAnimDialogProps {
@@ -18,23 +18,23 @@ const AnimDialog: React.FC<IAnimDialogProps> = (props) => {
     const [showSuccessDialog, setShowSuccessDialog] = useState<boolean>(false);
     const [showErrorDialog, setShowErrorDialog] = useState<boolean>(false);
 
-    const animatedDialogContentProps: IDialogContentProps = {
+    const animatedDialogContentProps: any = {
         type: DialogType.normal,
         title: 'Animated Dialog',
         subText: 'Do you like the animated dialog?',
     };
 
-    const successDialogContentProps: IDialogContentProps = {
+    const successDialogContentProps: any = {
         type: DialogType.normal,
         title: 'Good answer!'
     };
 
-    const errorDialogContentProps: IDialogContentProps = {
+    const errorDialogContentProps: any = {
         type: DialogType.normal,
         title: 'Wrong answer!'
     };
 
-    const animatedModalProps: IModalProps = {
+    const animatedModalProps: any = {
         isDarkOverlay: true,
         isBlocking: true
     };
@@ -69,8 +69,8 @@ const AnimDialog: React.FC<IAnimDialogProps> = (props) => {
                 <AnimatedDialog
                     hidden={!showDialog}
                     onDismiss={() => { _hideDialog(); }}
-                    dialogContentProps={animatedDialogContentProps}
                     modalProps={animatedModalProps}
+                    dialogContentProps={animatedDialogContentProps}
                 >
                     <DialogFooter>
                         <PrimaryButton onClick={() => { _hideDialog(); }} text="Yes" />
@@ -81,7 +81,7 @@ const AnimDialog: React.FC<IAnimDialogProps> = (props) => {
             {props.scope == 1 &&
                 <AnimatedDialog
                     hidden={!showDialog}
-                    onDismiss={() => { _hideDialog(); }}
+                    onDismiss={() => { _hideDialog(); }}                    
                     dialogContentProps={animatedDialogContentProps}
                     modalProps={animatedModalProps}
                     dialogAnimationInType='fadeInDown'

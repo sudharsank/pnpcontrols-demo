@@ -68,7 +68,7 @@ const ExtendListViewDemo: React.FC<IListViewDemoProps> = (props) => {
             minWidth: 200,
             maxWidth: 250,
             sorting: true,
-            render: (item?: any, index?: number, column?: IColumn) => {
+            render: (item?: any, index?: number, column?: any) => {
                 return (
                     <Persona size={PersonaSize.size24} showInitialsUntilImageLoads imageShouldStartVisible
                         text={item['Author.Title']} imageUrl={`/_layouts/15/userphoto.aspx?username=${item['Author.EMail']}&size=M`} />
@@ -81,7 +81,7 @@ const ExtendListViewDemo: React.FC<IListViewDemoProps> = (props) => {
             minWidth: 200,
             maxWidth: 250,
             sorting: true,
-            render: (item?: any, index?: number, column?: IColumn) => {
+            render: (item?: any, index?: number, column?: any) => {
                 return (
                     <div>{moment(item.Created).format("DD-MMM-YYYY")}</div>
                 );

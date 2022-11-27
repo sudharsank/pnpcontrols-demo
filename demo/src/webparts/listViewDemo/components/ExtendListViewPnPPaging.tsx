@@ -44,10 +44,9 @@ const ExtendListViewPnPPaging: React.FC<IListViewDemoProps> = (props) => {
             displayName: '',
             sorting: false,
             maxWidth: 40,
-            render: (rowItem: any) => {
-                return (
-                    <ListViewContextMenu item={rowItem} />
-                );
+            render: (rowItem: any): any => {
+                const element: any = <ListViewContextMenu item={rowItem} />;
+                return element;
             }
         },
         {
@@ -68,11 +67,10 @@ const ExtendListViewPnPPaging: React.FC<IListViewDemoProps> = (props) => {
             minWidth: 200,
             maxWidth: 250,
             sorting: true,
-            render: (item?: any, index?: number, column?: IColumn) => {
-                return (
-                    <Persona size={PersonaSize.size24} showInitialsUntilImageLoads imageShouldStartVisible
-                        text={item['Author.Title']} imageUrl={`/_layouts/15/userphoto.aspx?username=${item['Author.EMail']}&size=M`} />
-                );
+            render: (item?: any): any => {
+                const element: any = <Persona size={PersonaSize.size24} showInitialsUntilImageLoads imageShouldStartVisible
+                    text={item['Author.Title']} imageUrl={`/_layouts/15/userphoto.aspx?username=${item['Author.EMail']}&size=M`} />
+                return element;
             }
         },
         {
@@ -81,10 +79,9 @@ const ExtendListViewPnPPaging: React.FC<IListViewDemoProps> = (props) => {
             minWidth: 200,
             maxWidth: 250,
             sorting: true,
-            render: (item?: any, index?: number, column?: IColumn) => {
-                return (
-                    <div>{moment(item.Created).format("DD-MMM-YYYY")}</div>
-                );
+            render: (item?: any): any => {
+                const element: any = <div>{moment(item.Created).format("DD-MMM-YYYY")}</div>
+                return element;
             }
         }
     ];
@@ -148,7 +145,7 @@ const ExtendListViewPnPPaging: React.FC<IListViewDemoProps> = (props) => {
                         <div style={{ width: '100%', display: 'inline-block' }}>
                             <Pagination
                                 currentPage={currentPage}
-                                totalPages={Math.round(listItems.length/pageSize)}
+                                totalPages={Math.round(listItems.length / pageSize)}
                                 onChange={(page) => _onPageUpdate(page)}
                                 limiter={3} // Optional - default value 3
                             />

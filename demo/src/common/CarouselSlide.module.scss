@@ -1,0 +1,107 @@
+@import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
+
+.carouselSlideWrapper {
+    text-align: center;
+    width: 100%;
+  
+    .carouselSlide {
+      background-color: $ms-color-neutralLighter;
+      -webkit-transition: -webkit-transform 0.1s linear;
+      transition: -webkit-transform 0.1s linear;
+      transition: transform 0.1s linear;
+      transition: transform 0.1s linear, -webkit-transform 0.1s linear;
+      position: relative;
+      display: inline-block;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      cursor: pointer;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      overflow: hidden;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  
+      &:active {
+        -webkit-transform: scale(0.96);
+        transform: scale(0.96);
+      }
+  
+      .carouselSlideContent {
+        width: 100%;
+        height: 100%;
+  
+        .carouselSlideFileContainer {
+          border-width: 1px;
+          border-style: solid;
+          border-color: $ms-color-neutralLight;
+          background-color: $ms-color-neutralLighter;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+  
+          .carouselSlideThumbnail {
+            text-align: center;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            img {
+               width: 100%;
+            }
+          }
+  
+          .carouselSlideNamePlate {
+            opacity: 1;          
+            min-height: 35px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 4px 8px 8px;
+            color: $ms-color-white;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            background-color: $ms-color-black;
+            .carouselSlideName {
+              font-size: 15px;
+              line-height: 20px;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-weight: bold;
+            }
+            .carouselSlideSubText {
+              font-size: 11px;
+              color: $ms-color-white;
+              overflow: hidden;
+              white-space: nowrap;
+              text-overflow: ellipsis;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+  
+      &:focus {
+        .carouselSlideContent {
+            content: '';
+            position: absolute;
+            right: 2px;
+            left: 2px;
+            top: 2px;
+            bottom: 2px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: $ms-color-white;
+            -webkit-box-shadow: 0 0 0 2px $ms-color-neutralSecondary;
+            box-shadow: 0 0 0 2px $ms-color-neutralSecondary;
+        }
+      }
+    }
+  }

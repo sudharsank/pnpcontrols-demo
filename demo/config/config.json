@@ -41,6 +41,14 @@
           "manifest": "./src/webparts/dialogsDemo/DialogsDemoWebPart.manifest.json"
         }
       ]
+    },
+    "carousel-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/carouselDemo/CarouselDemoWebPart.js",
+          "manifest": "./src/webparts/carouselDemo/CarouselDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -50,6 +58,7 @@
     "VariantThemeWebPartStrings": "lib/webparts/variantTheme/loc/{locale}.js",
     "AccessibleAccordionDemoWebPartStrings": "lib/webparts/accessibleAccordionDemo/loc/{locale}.js",
     "ListViewDemoWebPartStrings": "lib/webparts/listViewDemo/loc/{locale}.js",
-    "DialogsDemoWebPartStrings": "lib/webparts/dialogsDemo/loc/{locale}.js"
+    "DialogsDemoWebPartStrings": "lib/webparts/dialogsDemo/loc/{locale}.js",
+    "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js"
   }
 }
