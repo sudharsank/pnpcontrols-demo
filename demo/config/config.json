@@ -49,6 +49,14 @@
           "manifest": "./src/webparts/carouselDemo/CarouselDemoWebPart.manifest.json"
         }
       ]
+    },
+    "file-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/filePickerDemo/FilePickerDemoWebPart.js",
+          "manifest": "./src/webparts/filePickerDemo/FilePickerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -59,6 +67,7 @@
     "AccessibleAccordionDemoWebPartStrings": "lib/webparts/accessibleAccordionDemo/loc/{locale}.js",
     "ListViewDemoWebPartStrings": "lib/webparts/listViewDemo/loc/{locale}.js",
     "DialogsDemoWebPartStrings": "lib/webparts/dialogsDemo/loc/{locale}.js",
-    "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js"
+    "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js",
+    "FilePickerDemoWebPartStrings": "lib/webparts/filePickerDemo/loc/{locale}.js"
   }
 }

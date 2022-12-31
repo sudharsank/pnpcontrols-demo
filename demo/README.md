@@ -31,3 +31,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_6 Animated Dialog_**
 ![Animated Dialog](../assets/PnPDialogs.gif)
+
+## **_7 FilePicker & FileTypeIcon_**
+![Animated Dialog](../assets/PnPFileControl.gif)

@@ -18,3 +18,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_Extended ListView Control Custom Paging_**](https://spknowledge.com/2022/09/25/pnp-react-controls-part-4-2-extending-listview-control-with-custom-paging/)
 - [**_ListView using PnP Paging Control_**](https://spknowledge.com/2022/10/01/pnp-react-controls-part-5-pnp-paging-control/)
 - [**_Animated Dialog_**](https://spknowledge.com/2022/10/18/pnp-react-controls-part-6-animated-dialog/)
+- [**_FilePicker & FileTypeIcon_**](https://spknowledge.com/2022/10/18/pnp-react-controls-part-6-animated-dialog/)
