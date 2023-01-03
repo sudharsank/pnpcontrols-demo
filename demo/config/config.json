@@ -57,6 +57,14 @@
           "manifest": "./src/webparts/filePickerDemo/FilePickerDemoWebPart.manifest.json"
         }
       ]
+    },
+    "folder-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/folderPickerDemo/FolderPickerDemoWebPart.js",
+          "manifest": "./src/webparts/folderPickerDemo/FolderPickerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -68,6 +76,7 @@
     "ListViewDemoWebPartStrings": "lib/webparts/listViewDemo/loc/{locale}.js",
     "DialogsDemoWebPartStrings": "lib/webparts/dialogsDemo/loc/{locale}.js",
     "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js",
-    "FilePickerDemoWebPartStrings": "lib/webparts/filePickerDemo/loc/{locale}.js"
+    "FilePickerDemoWebPartStrings": "lib/webparts/filePickerDemo/loc/{locale}.js",
+    "FolderPickerDemoWebPartStrings": "lib/webparts/folderPickerDemo/loc/{locale}.js"
   }
 }
