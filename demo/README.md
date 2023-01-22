@@ -38,5 +38,5 @@ A demo project on different PnP SPFx react controls.
 ## **_7 Folder Picker_**
 ![Folder Picker](../assets/PnPFolderPicker.gif)
 
-## **_7 Folder Explorer_**
+## **_8 Folder Explorer_**
 ![Folder Explorer](../assets/PnPFolderExplorer.gif)
