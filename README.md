@@ -20,3 +20,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_Animated Dialog_**](https://spknowledge.com/2022/10/18/pnp-react-controls-part-6-animated-dialog/)
 - [**_FilePicker & FileTypeIcon_**](https://spknowledge.com/2022/12/31/pnp-react-controls-part-7-filepicker-filetypeicon/)
 - [**_Folder Picker_**](https://spknowledge.com/2023/01/03/pnp-react-controls-part-8-folderpicker/)
+- [**_Folder Explorer_**](https://spknowledge.com/2023/01/22/pnp-react-controls-part-9-folderexplorer/)

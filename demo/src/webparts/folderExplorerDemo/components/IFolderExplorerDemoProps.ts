@@ -1,6 +1,6 @@
 import { WebPartContext } from "@microsoft/sp-webpart-base";
 
-export interface IFolderPickerDemoProps {
+export interface IFolderExplorerDemoProps {
   description: string;
   isDarkTheme: boolean;
   environmentMessage: string;

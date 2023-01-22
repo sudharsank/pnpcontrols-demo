@@ -65,6 +65,14 @@
           "manifest": "./src/webparts/folderPickerDemo/FolderPickerDemoWebPart.manifest.json"
         }
       ]
+    },
+    "folder-explorer-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/folderExplorerDemo/FolderExplorerDemoWebPart.js",
+          "manifest": "./src/webparts/folderExplorerDemo/FolderExplorerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -77,6 +85,7 @@
     "DialogsDemoWebPartStrings": "lib/webparts/dialogsDemo/loc/{locale}.js",
     "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js",
     "FilePickerDemoWebPartStrings": "lib/webparts/filePickerDemo/loc/{locale}.js",
-    "FolderPickerDemoWebPartStrings": "lib/webparts/folderPickerDemo/loc/{locale}.js"
+    "FolderPickerDemoWebPartStrings": "lib/webparts/folderPickerDemo/loc/{locale}.js",
+    "FolderExplorerDemoWebPartStrings": "lib/webparts/folderExplorerDemo/loc/{locale}.js"
   }
 }
