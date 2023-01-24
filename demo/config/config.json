@@ -73,6 +73,14 @@
           "manifest": "./src/webparts/folderExplorerDemo/FolderExplorerDemoWebPart.manifest.json"
         }
       ]
+    },
+    "people-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/peoplePickerDemo/PeoplePickerDemoWebPart.js",
+          "manifest": "./src/webparts/peoplePickerDemo/PeoplePickerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -86,6 +94,7 @@
     "CarouselDemoWebPartStrings": "lib/webparts/carouselDemo/loc/{locale}.js",
     "FilePickerDemoWebPartStrings": "lib/webparts/filePickerDemo/loc/{locale}.js",
     "FolderPickerDemoWebPartStrings": "lib/webparts/folderPickerDemo/loc/{locale}.js",
-    "FolderExplorerDemoWebPartStrings": "lib/webparts/folderExplorerDemo/loc/{locale}.js"
+    "FolderExplorerDemoWebPartStrings": "lib/webparts/folderExplorerDemo/loc/{locale}.js",
+    "PeoplePickerDemoWebPartStrings": "lib/webparts/peoplePickerDemo/loc/{locale}.js"
   }
 }

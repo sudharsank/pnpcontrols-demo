@@ -35,8 +35,11 @@ A demo project on different PnP SPFx react controls.
 ## **_7 FilePicker & FileTypeIcon_**
 ![FilePicker & FileTypeIcon](../assets/PnPFileControl.gif)
 
-## **_7 Folder Picker_**
+## **_8 Folder Picker_**
 ![Folder Picker](../assets/PnPFolderPicker.gif)
 
-## **_8 Folder Explorer_**
+## **_9 Folder Explorer_**
 ![Folder Explorer](../assets/PnPFolderExplorer.gif)
+
+## **_10 People Picker_**
+![Folder Explorer](../assets/PnP_PeoplePicker.gif)
