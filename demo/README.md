@@ -42,4 +42,7 @@ A demo project on different PnP SPFx react controls.
 ![Folder Explorer](../assets/PnPFolderExplorer.gif)
 
 ## **_10 People Picker_**
-![Folder Explorer](../assets/PnP_PeoplePicker.gif)
+![People Picker](../assets/PnP_PeoplePicker.gif)
+
+## **_11 List Picker_**
+![List Picker](../assets/PnPList_Picker.gif)
