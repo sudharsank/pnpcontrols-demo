@@ -89,6 +89,14 @@
           "manifest": "./src/webparts/listPickerDemo/ListPickerDemoWebPart.manifest.json"
         }
       ]
+    },
+    "i-frame-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iFrameDemo/IFrameDemoWebPart.js",
+          "manifest": "./src/webparts/iFrameDemo/IFrameDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -104,6 +112,7 @@
     "FolderPickerDemoWebPartStrings": "lib/webparts/folderPickerDemo/loc/{locale}.js",
     "FolderExplorerDemoWebPartStrings": "lib/webparts/folderExplorerDemo/loc/{locale}.js",
     "PeoplePickerDemoWebPartStrings": "lib/webparts/peoplePickerDemo/loc/{locale}.js",
-    "ListPickerDemoWebPartStrings": "lib/webparts/listPickerDemo/loc/{locale}.js"
+    "ListPickerDemoWebPartStrings": "lib/webparts/listPickerDemo/loc/{locale}.js",
+    "IFrameDemoWebPartStrings": "lib/webparts/iFrameDemo/loc/{locale}.js"
   }
 }
