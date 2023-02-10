@@ -23,3 +23,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_Folder Explorer_**](https://spknowledge.com/2023/01/22/pnp-react-controls-part-9-folderexplorer/)
 - [**_People Picker_**](https://spknowledge.com/2023/01/24/pnp-react-controls-part-10-peoplepicker/)
 - [**_List Picker_**](https://spknowledge.com/2023/02/01/pnp-react-controls-part-11-listpicker/)
+- [**_IFramePanel & IFrameDialog_**](https://spknowledge.com/2023/02/10/pnp-react-controls-part-12-iframepanel-iframedialog/)

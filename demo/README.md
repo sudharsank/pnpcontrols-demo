@@ -46,3 +46,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_11 List Picker_**
 ![List Picker](../assets/PnPList_Picker.gif)
+
+## **_12 IFramePanel & IFrameDialog_**
+![IFramePanel & IFrameDialog](../assets/PnP_IFrame.gif)

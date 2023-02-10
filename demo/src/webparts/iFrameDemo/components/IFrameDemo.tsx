@@ -68,8 +68,8 @@ const iFrameDemo: FC<IIFrameDemoProps> = (props) => {
                             showCloseButton: true,
                             title: 'Auto Copy Files'
                         }}
-                        width={'570px'}
-                        height={'315px'} />
+                        width={'800px'}
+                        height={'500px'} />
                 </div>
             </div>
         </section>
