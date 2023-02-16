@@ -97,6 +97,14 @@
           "manifest": "./src/webparts/iFrameDemo/IFrameDemoWebPart.manifest.json"
         }
       ]
+    },
+    "icon-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iconPickerDemo/IconPickerDemoWebPart.js",
+          "manifest": "./src/webparts/iconPickerDemo/IconPickerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -113,6 +121,7 @@
     "FolderExplorerDemoWebPartStrings": "lib/webparts/folderExplorerDemo/loc/{locale}.js",
     "PeoplePickerDemoWebPartStrings": "lib/webparts/peoplePickerDemo/loc/{locale}.js",
     "ListPickerDemoWebPartStrings": "lib/webparts/listPickerDemo/loc/{locale}.js",
-    "IFrameDemoWebPartStrings": "lib/webparts/iFrameDemo/loc/{locale}.js"
+    "IFrameDemoWebPartStrings": "lib/webparts/iFrameDemo/loc/{locale}.js",
+    "IconPickerDemoWebPartStrings": "lib/webparts/iconPickerDemo/loc/{locale}.js"
   }
 }
