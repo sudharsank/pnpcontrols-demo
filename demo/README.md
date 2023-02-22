@@ -52,3 +52,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_13 Icon Picker_**
 ![Icon Picker](../assets/PnP_IconPicker.gif)
+
+## **_14 Drag & Drop Files Control_**
+![Drag & Drop](../assets/PnP_DragDropFiles.gif)

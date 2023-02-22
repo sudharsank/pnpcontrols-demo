@@ -105,6 +105,14 @@
           "manifest": "./src/webparts/iconPickerDemo/IconPickerDemoWebPart.manifest.json"
         }
       ]
+    },
+    "drag-drop-files-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dragDropFilesDemo/DragDropFilesDemoWebPart.js",
+          "manifest": "./src/webparts/dragDropFilesDemo/DragDropFilesDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -122,6 +130,7 @@
     "PeoplePickerDemoWebPartStrings": "lib/webparts/peoplePickerDemo/loc/{locale}.js",
     "ListPickerDemoWebPartStrings": "lib/webparts/listPickerDemo/loc/{locale}.js",
     "IFrameDemoWebPartStrings": "lib/webparts/iFrameDemo/loc/{locale}.js",
-    "IconPickerDemoWebPartStrings": "lib/webparts/iconPickerDemo/loc/{locale}.js"
+    "IconPickerDemoWebPartStrings": "lib/webparts/iconPickerDemo/loc/{locale}.js",
+    "DragDropFilesDemoWebPartStrings": "lib/webparts/dragDropFilesDemo/loc/{locale}.js"
   }
 }

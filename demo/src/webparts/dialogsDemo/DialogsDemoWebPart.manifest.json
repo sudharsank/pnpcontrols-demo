@@ -20,7 +20,7 @@
     "group": { "default": "Other" },
     "title": { "default": "dialogsDemo" },
     "description": { "default": "dialogsDemo description" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "GiftboxOpen",
     "properties": {
       "description": "dialogsDemo"
     }
