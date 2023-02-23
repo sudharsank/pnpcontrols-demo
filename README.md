@@ -26,3 +26,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_IFramePanel & IFrameDialog_**](https://spknowledge.com/2023/02/10/pnp-react-controls-part-12-iframepanel-iframedialog/)
 - [**_IconPicker_**](https://spknowledge.com/2023/02/16/pnp-react-controls-part-13-iconpicker/)
 - [**_DragDropFiles_**](https://spknowledge.com/2023/02/22/pnp-react-controls-part-14-dragdropfiles/)
+- [**_SitePicker_**](https://spknowledge.com/)

@@ -55,3 +55,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_14 Drag & Drop Files Control_**
 ![Drag & Drop](../assets/PnP_DragDropFiles.gif)
+
+## **_15 Site Picker Control_**
+![Site Picker](../assets/PnP_SitePicker.gif)

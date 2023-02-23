@@ -113,6 +113,14 @@
           "manifest": "./src/webparts/dragDropFilesDemo/DragDropFilesDemoWebPart.manifest.json"
         }
       ]
+    },
+    "site-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sitePickerDemo/SitePickerDemoWebPart.js",
+          "manifest": "./src/webparts/sitePickerDemo/SitePickerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -131,6 +139,7 @@
     "ListPickerDemoWebPartStrings": "lib/webparts/listPickerDemo/loc/{locale}.js",
     "IFrameDemoWebPartStrings": "lib/webparts/iFrameDemo/loc/{locale}.js",
     "IconPickerDemoWebPartStrings": "lib/webparts/iconPickerDemo/loc/{locale}.js",
-    "DragDropFilesDemoWebPartStrings": "lib/webparts/dragDropFilesDemo/loc/{locale}.js"
+    "DragDropFilesDemoWebPartStrings": "lib/webparts/dragDropFilesDemo/loc/{locale}.js",
+    "SitePickerDemoWebPartStrings": "lib/webparts/sitePickerDemo/loc/{locale}.js"
   }
 }
