@@ -58,3 +58,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_15 Site Picker Control_**
 ![Site Picker](../assets/PnP_SitePicker.gif)
+
+## **_16 FieldCollectionData Control_**
+![Field Collection Data](../assets/PnP_FieldCollectionData.gif)
