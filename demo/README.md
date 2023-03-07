@@ -61,3 +61,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_16 FieldCollectionData Control_**
 ![Field Collection Data](../assets/PnP_FieldCollectionData.gif)
+
+## **_17 Toolbar Control_**
+![Toolbar](../assets/PnP_Toolbar.gif)

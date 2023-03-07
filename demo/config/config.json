@@ -129,6 +129,14 @@
           "manifest": "./src/webparts/fieldCollectionDataDemo/FieldCollectionDataDemoWebPart.manifest.json"
         }
       ]
+    },
+    "toolbar-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/toolbarDemo/ToolbarDemoWebPart.js",
+          "manifest": "./src/webparts/toolbarDemo/ToolbarDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -149,6 +157,7 @@
     "IconPickerDemoWebPartStrings": "lib/webparts/iconPickerDemo/loc/{locale}.js",
     "DragDropFilesDemoWebPartStrings": "lib/webparts/dragDropFilesDemo/loc/{locale}.js",
     "SitePickerDemoWebPartStrings": "lib/webparts/sitePickerDemo/loc/{locale}.js",
-    "FieldCollectionDataDemoWebPartStrings": "lib/webparts/fieldCollectionDataDemo/loc/{locale}.js"
+    "FieldCollectionDataDemoWebPartStrings": "lib/webparts/fieldCollectionDataDemo/loc/{locale}.js",
+    "ToolbarDemoWebPartStrings": "lib/webparts/toolbarDemo/loc/{locale}.js"
   }
 }
