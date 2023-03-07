@@ -28,4 +28,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_DragDropFiles_**](https://spknowledge.com/2023/02/22/pnp-react-controls-part-14-dragdropfiles/)
 - [**_SitePicker_**](https://spknowledge.com/2023/02/23/pnp-react-controls-part-15-sitepicker/)
 - [**_FieldCollectionData_**](https://spknowledge.com/2023/02/24/pnp-react-controls-part-16-fieldcollectiondata/)
-- [**_Toolbar_**](https://spknowledge.com/)
+- [**_Toolbar_**](https://spknowledge.com/2023/03/07/pnp-react-controls-part-17-toolbar/)
