@@ -64,3 +64,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_17 Toolbar Control_**
 ![Toolbar](../assets/PnP_Toolbar.gif)
+
+## **_18 ListItemAttachment Control_**
+![ListItem Attachments](../assets/PnP_ListItemAttachments.gif)

@@ -29,3 +29,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_SitePicker_**](https://spknowledge.com/2023/02/23/pnp-react-controls-part-15-sitepicker/)
 - [**_FieldCollectionData_**](https://spknowledge.com/2023/02/24/pnp-react-controls-part-16-fieldcollectiondata/)
 - [**_Toolbar_**](https://spknowledge.com/2023/03/07/pnp-react-controls-part-17-toolbar/)
+- [**_ListItemAttachments_**](https://spknowledge.com/2023/08/02/pnp-react-controls-part-18-listitemattachment/)

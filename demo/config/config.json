@@ -137,6 +137,14 @@
           "manifest": "./src/webparts/toolbarDemo/ToolbarDemoWebPart.manifest.json"
         }
       ]
+    },
+    "list-item-attachment-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listItemAttachmentDemo/ListItemAttachmentDemoWebPart.js",
+          "manifest": "./src/webparts/listItemAttachmentDemo/ListItemAttachmentDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -158,6 +166,7 @@
     "DragDropFilesDemoWebPartStrings": "lib/webparts/dragDropFilesDemo/loc/{locale}.js",
     "SitePickerDemoWebPartStrings": "lib/webparts/sitePickerDemo/loc/{locale}.js",
     "FieldCollectionDataDemoWebPartStrings": "lib/webparts/fieldCollectionDataDemo/loc/{locale}.js",
-    "ToolbarDemoWebPartStrings": "lib/webparts/toolbarDemo/loc/{locale}.js"
+    "ToolbarDemoWebPartStrings": "lib/webparts/toolbarDemo/loc/{locale}.js",
+    "ListItemAttachmentDemoWebPartStrings": "lib/webparts/listItemAttachmentDemo/loc/{locale}.js"
   }
 }
