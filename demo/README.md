@@ -67,3 +67,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_18 ListItemAttachment Control_**
 ![ListItem Attachments](../assets/PnP_ListItemAttachments.gif)
+
+## **_19 UploadFiles Control_**
+![UploadFiles](../assets/PnP_UploadFiles.png)

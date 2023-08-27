@@ -145,6 +145,14 @@
           "manifest": "./src/webparts/listItemAttachmentDemo/ListItemAttachmentDemoWebPart.manifest.json"
         }
       ]
+    },
+    "upload-file-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadFileDemo/UploadFileDemoWebPart.js",
+          "manifest": "./src/webparts/uploadFileDemo/UploadFileDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -167,6 +175,7 @@
     "SitePickerDemoWebPartStrings": "lib/webparts/sitePickerDemo/loc/{locale}.js",
     "FieldCollectionDataDemoWebPartStrings": "lib/webparts/fieldCollectionDataDemo/loc/{locale}.js",
     "ToolbarDemoWebPartStrings": "lib/webparts/toolbarDemo/loc/{locale}.js",
-    "ListItemAttachmentDemoWebPartStrings": "lib/webparts/listItemAttachmentDemo/loc/{locale}.js"
+    "ListItemAttachmentDemoWebPartStrings": "lib/webparts/listItemAttachmentDemo/loc/{locale}.js",
+    "UploadFileDemoWebPartStrings": "lib/webparts/uploadFileDemo/loc/{locale}.js"
   }
 }
