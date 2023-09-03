@@ -153,6 +153,14 @@
           "manifest": "./src/webparts/uploadFileDemo/UploadFileDemoWebPart.manifest.json"
         }
       ]
+    },
+    "rich-text-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/richTextDemo/RichTextDemoWebPart.js",
+          "manifest": "./src/webparts/richTextDemo/RichTextDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -176,6 +184,7 @@
     "FieldCollectionDataDemoWebPartStrings": "lib/webparts/fieldCollectionDataDemo/loc/{locale}.js",
     "ToolbarDemoWebPartStrings": "lib/webparts/toolbarDemo/loc/{locale}.js",
     "ListItemAttachmentDemoWebPartStrings": "lib/webparts/listItemAttachmentDemo/loc/{locale}.js",
-    "UploadFileDemoWebPartStrings": "lib/webparts/uploadFileDemo/loc/{locale}.js"
+    "UploadFileDemoWebPartStrings": "lib/webparts/uploadFileDemo/loc/{locale}.js",
+    "RichTextDemoWebPartStrings": "lib/webparts/richTextDemo/loc/{locale}.js"
   }
 }

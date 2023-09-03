@@ -70,3 +70,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_19 UploadFiles Control_**
 ![UploadFiles](../assets/PnP_UploadFiles.png)
+
+## **_20 RichText Control_**
+![RichText](../assets/PnP_RichText.gif)
