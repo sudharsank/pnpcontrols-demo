@@ -73,3 +73,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_20 RichText Control_**
 ![RichText](../assets/PnP_RichText.gif)
+
+## **_20 ListItemComments Control_**
+![ListItemComments](../assets/PnP_ListitemComments.png)

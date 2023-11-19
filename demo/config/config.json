@@ -161,6 +161,14 @@
           "manifest": "./src/webparts/richTextDemo/RichTextDemoWebPart.manifest.json"
         }
       ]
+    },
+    "listitem-comments-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listitemCommentsDemo/ListitemCommentsDemoWebPart.js",
+          "manifest": "./src/webparts/listitemCommentsDemo/ListitemCommentsDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -185,6 +193,7 @@
     "ToolbarDemoWebPartStrings": "lib/webparts/toolbarDemo/loc/{locale}.js",
     "ListItemAttachmentDemoWebPartStrings": "lib/webparts/listItemAttachmentDemo/loc/{locale}.js",
     "UploadFileDemoWebPartStrings": "lib/webparts/uploadFileDemo/loc/{locale}.js",
-    "RichTextDemoWebPartStrings": "lib/webparts/richTextDemo/loc/{locale}.js"
+    "RichTextDemoWebPartStrings": "lib/webparts/richTextDemo/loc/{locale}.js",
+    "ListitemCommentsDemoWebPartStrings": "lib/webparts/listitemCommentsDemo/loc/{locale}.js"
   }
 }
