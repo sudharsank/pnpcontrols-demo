@@ -169,6 +169,14 @@
           "manifest": "./src/webparts/listitemCommentsDemo/ListitemCommentsDemoWebPart.manifest.json"
         }
       ]
+    },
+    "security-trimmed-control-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/securityTrimmedControlDemo/SecurityTrimmedControlDemoWebPart.js",
+          "manifest": "./src/webparts/securityTrimmedControlDemo/SecurityTrimmedControlDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -194,6 +202,7 @@
     "ListItemAttachmentDemoWebPartStrings": "lib/webparts/listItemAttachmentDemo/loc/{locale}.js",
     "UploadFileDemoWebPartStrings": "lib/webparts/uploadFileDemo/loc/{locale}.js",
     "RichTextDemoWebPartStrings": "lib/webparts/richTextDemo/loc/{locale}.js",
-    "ListitemCommentsDemoWebPartStrings": "lib/webparts/listitemCommentsDemo/loc/{locale}.js"
+    "ListitemCommentsDemoWebPartStrings": "lib/webparts/listitemCommentsDemo/loc/{locale}.js",
+    "SecurityTrimmedControlDemoWebPartStrings": "lib/webparts/securityTrimmedControlDemo/loc/{locale}.js"
   }
 }

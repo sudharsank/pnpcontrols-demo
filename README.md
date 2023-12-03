@@ -33,3 +33,4 @@ This repo contains different samples of PnP React Controls. Following are the to
 - [**_UploadFiles_**](https://spknowledge.com/2023/08/27/pnp-react-controls-part-19-uploadfiles-control/)
 - [**_RichText_**](https://spknowledge.com/2023/09/04/pnp-react-controls-part-20-richtext-control/)
 - [**_ListItemComments_**](https://spknowledge.com/2023/11/19/pnp-react-controls-part-21-listitemcomments/)
+- [**_SecurityTrimmedControl_**](https://spknowledge.com/)

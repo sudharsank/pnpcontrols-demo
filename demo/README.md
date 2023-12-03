@@ -76,3 +76,6 @@ A demo project on different PnP SPFx react controls.
 
 ## **_20 ListItemComments Control_**
 ![ListItemComments](../assets/PnP_ListitemComments.png)
+
+## **_21 SecurityTrimmed Control_**
+![SecurityTrimmed](../assets/PnP_SecurityTrimmedControlDemo.png)
