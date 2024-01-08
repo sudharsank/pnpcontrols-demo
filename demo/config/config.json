@@ -177,6 +177,22 @@
           "manifest": "./src/webparts/securityTrimmedControlDemo/SecurityTrimmedControlDemoWebPart.manifest.json"
         }
       ]
+    },
+    "term-set-navigation-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/termSetNavigationDemo/TermSetNavigationDemoWebPart.js",
+          "manifest": "./src/webparts/termSetNavigationDemo/TermSetNavigationDemoWebPart.manifest.json"
+        }
+      ]
+    },
+    "taxonomy-picker-demo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/taxonomyPickerDemo/TaxonomyPickerDemoWebPart.js",
+          "manifest": "./src/webparts/taxonomyPickerDemo/TaxonomyPickerDemoWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
@@ -203,6 +219,8 @@
     "UploadFileDemoWebPartStrings": "lib/webparts/uploadFileDemo/loc/{locale}.js",
     "RichTextDemoWebPartStrings": "lib/webparts/richTextDemo/loc/{locale}.js",
     "ListitemCommentsDemoWebPartStrings": "lib/webparts/listitemCommentsDemo/loc/{locale}.js",
-    "SecurityTrimmedControlDemoWebPartStrings": "lib/webparts/securityTrimmedControlDemo/loc/{locale}.js"
+    "SecurityTrimmedControlDemoWebPartStrings": "lib/webparts/securityTrimmedControlDemo/loc/{locale}.js",
+    "TermSetNavigationDemoWebPartStrings": "lib/webparts/termSetNavigationDemo/loc/{locale}.js",
+    "TaxonomyPickerDemoWebPartStrings": "lib/webparts/taxonomyPickerDemo/loc/{locale}.js"
   }
 }
